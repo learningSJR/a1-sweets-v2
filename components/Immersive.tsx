@@ -260,8 +260,8 @@ const foods = [
   ['Thali', 'thali.jpg'],
   ['Mithai', 'sweets.jpg'],
   ['Samosa', 'samosa.jpg'],
-  ['Jalebi', 'menu_rest_1_4.png'],
-  ['Catering', 'value.jpg'],
+  ['Jalebi', '1727090471.jpg'],
+  ['Catering', 'value.png'],
 ]
 export function FoodRail() {
   const ref = useRef<HTMLElement>(null)
