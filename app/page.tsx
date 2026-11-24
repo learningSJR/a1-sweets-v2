@@ -1,0 +1,10 @@
+import Header from '../components/Header'
+import {Loader,Hero,Assembly,FoodRail,DoodleStory,Marquee} from '../components/Immersive'
+import WaveDivider from '../components/WaveDivider'
+import FeatureStrip from '../components/FeatureStrip'
+import Menu from '../components/Menu'
+import Catering from '../components/Catering'
+import Gallery from '../components/Gallery'
+import VisitEnquire from '../components/VisitEnquire'
+import Footer from '../components/Footer'
+export default function Home(){return <><a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-[1000] focus:bg-white focus:p-4">Skip to content</a><Loader/><Header/><main id="main"><Hero/><div className="bg-[#ffcf45]"><FeatureStrip/></div><WaveDivider from="#ffcf45" to="#fff5df"/><DoodleStory/><WaveDivider from="#fff5df" to="#191a4f"/><Assembly/><WaveDivider from="#191a4f" to="#f2e5cf"/><FoodRail/><WaveDivider from="#f2e5cf" to="#ad1739"/><Marquee/><WaveDivider from="#ad1739" to="#fff9ef"/><Menu/><WaveDivider from="#fff9ef" to="#191a4f"/><Catering/><WaveDivider from="#191a4f" to="#f2e5cf"/><Gallery/><WaveDivider from="#f2e5cf" to="#ffcf45"/><VisitEnquire/></main><WaveDivider from="#ffcf45" to="#ad1739"/><Footer/></>}

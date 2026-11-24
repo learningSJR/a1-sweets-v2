@@ -1,0 +1,4 @@
+import Image from 'next/image'
+import {ArrowUp} from 'lucide-react'
+import s from './Footer.module.css'
+export default function Footer(){return <footer className={s.footer}><div className={s.inner}><div><Image src="/images/logo1.png" alt="A1 Sweets" width={130} height={86} className={s.logo}/><p>Authentic Indian vegetarian cuisine.<br/>Dine-in · Takeout · Outdoor catering.</p></div><nav aria-label="Footer navigation"><a href="#about">Our story</a><a href="#menu">Menu</a><a href="#catering">Catering</a><a href="#contact">Contact</a></nav><a href="#home" className={s.top}>Back to top <ArrowUp size={18}/></a></div><a href="#home" className={s.wordmark} aria-label="A1 Sweets, back to top">A1 SWEETS</a><div className={s.bottom}>© {new Date().getFullYear()} A1 Sweets. All rights reserved.</div></footer>}
